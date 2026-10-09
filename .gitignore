@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local credentials and editor settings
+.env
+.env.*
+!.env.example
+.idea/
+.DS_Store
+
+# Emulator assets, model weights, and generated runs
+*.nds
+*.sav
+*.dsv
+*.mln
+*.safetensors
+*.pt
+*.pth
+# Adapter source lives here; generated model artifacts remain ignored.
+models/*
+!models/*.py
+checkpoints/
+screenshots/
+trajectories/
+runs/

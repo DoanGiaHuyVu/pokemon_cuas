@@ -1,0 +1,17 @@
+[project]
+name = "pokemon-cua"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "google-genai>=2.29.0",
+    "httpx[http2]==0.28.1",
+    "pillow>=12.3.0",
+    "pyautogui>=0.9.54",
+    "pydantic>=2.14.0",
+    "python-dotenv>=1.2.4",
+    "torch>=2.14.1",
+    "transformers>=5.19.0",
+]
